@@ -1,4 +1,4 @@
-package In.Ghayaz;
+package In.Abstraction;
 
 public class Car extends Vehicle {
  private int noOfDoors;
@@ -9,8 +9,7 @@ public class Car extends Vehicle {
 
     @Override
     void StartSound() {
-        System.out.println("Vroommmmm");
-    }
+        System.out.println("Vroommmmm");}
 
     public void speed(){
         System.out.println("speed from interface class type (interfaceTest) ");

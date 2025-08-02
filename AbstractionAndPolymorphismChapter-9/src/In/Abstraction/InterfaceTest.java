@@ -1,4 +1,4 @@
-package In.Ghayaz;
+package In.Abstraction;
 
 public interface InterfaceTest {
     void speed();

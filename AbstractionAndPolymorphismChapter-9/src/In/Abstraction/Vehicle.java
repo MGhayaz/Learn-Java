@@ -1,4 +1,4 @@
-package In.Ghayaz;
+package In.Abstraction;
 
 public abstract class Vehicle implements InterfaceTest{
     // Abstract classes are meant only for inheritance purpose not for object creation etc
