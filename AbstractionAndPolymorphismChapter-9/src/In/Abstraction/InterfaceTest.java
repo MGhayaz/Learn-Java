@@ -1,5 +1,5 @@
 package In.Abstraction;
 
-public interface InterfaceTest {
+ interface InterfaceTest {
     void speed();
 }

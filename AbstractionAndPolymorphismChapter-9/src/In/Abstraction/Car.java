@@ -1,8 +1,8 @@
 package In.Abstraction;
 
-public class Car extends Vehicle {
+ class Car extends Vehicle {
  private int noOfDoors;
-    public Car(){
+     Car(){
         super (4);
     }
 
@@ -11,7 +11,7 @@ public class Car extends Vehicle {
     void StartSound() {
         System.out.println("Vroommmmm");}
 
-    public void speed(){
+     public void speed(){
         System.out.println("speed from interface class type (interfaceTest) ");
     }
 }

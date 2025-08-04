@@ -1,6 +1,6 @@
 package In.MethodAndConstructorOverloading;
 
-public class Test {
+ class Test {
     // instance variables for testing constructors
     int age;
     int id;
@@ -25,22 +25,22 @@ public class Test {
     // ye saare chalte kyu ki sabke signature like arguments different hai
     // agar name same nihai aur parameters samw hai toh bi chlta like
 
-    public int DifferentAdd(int a , int b ){
+     int DifferentAdd(int a , int b ){
         return a+b;
     }
 
     // SAME GOES WITH CONSTRUCTORS
 
 
-    public Test(int age, int id){
+     Test(int age, int id){
         System.out.println("constructor with two arguments");
         this.age = age;
         this.id = id;
     }
-    public Test(){
+     Test(){
         System.out.println("constructor with no arguments");
     }
-    public Test(int age, int id, String name){
+     Test(int age, int id, String name){
         System.out.println("constructor with three arguments");
         this.age = age;
         this.id = id;

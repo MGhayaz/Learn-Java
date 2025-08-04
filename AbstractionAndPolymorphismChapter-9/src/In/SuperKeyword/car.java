@@ -1,6 +1,6 @@
 package In.SuperKeyword;
 // full practice of super keyword in constructor, variable and methods
-public class car extends Vehicle {
+class car extends Vehicle {
     public String carNumber ;
     public String commonInBoth = "common from car class";
 
@@ -19,7 +19,8 @@ public class car extends Vehicle {
 
 
     public String commonInTest(){
-        return "common method from car class";
+         // using superclass method here a
+        return super.commonInTest() + "\n common method from car class";
     }
 
    public void dummy(){

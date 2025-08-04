@@ -1,6 +1,6 @@
 package In.polymorphism;
 
-public interface Vehicle {
+ interface Vehicle {
      void InterfaceClassMethodSound();
 
 }

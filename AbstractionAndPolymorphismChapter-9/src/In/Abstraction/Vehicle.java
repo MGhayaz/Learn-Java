@@ -1,21 +1,21 @@
 package In.Abstraction;
 
-public abstract class Vehicle implements InterfaceTest{
+abstract class Vehicle implements InterfaceTest{
     // Abstract classes are meant only for inheritance purpose not for object creation etc
     private int noOfWheels;
 
-    public Vehicle(int noOfWheels) {
+     Vehicle(int noOfWheels) {
         this.noOfWheels = noOfWheels;
     }
 
-    public int getNoOfWheels() {
+     int getNoOfWheels() {
         return noOfWheels;
     }
 
-    public void setNoOfWheels(int noOfWheels) {
+    void setNoOfWheels(int noOfWheels) {
         this.noOfWheels = noOfWheels;
     }
-    public void commute(){
+     void commute(){
         System.out.println("Going");
     }
 

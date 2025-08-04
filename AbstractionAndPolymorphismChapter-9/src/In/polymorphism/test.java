@@ -1,6 +1,6 @@
 package In.polymorphism;
 
-public class test {
+ class test {
     public static void main(String[] args) {
 
         car car = new car();
@@ -19,7 +19,7 @@ public class test {
 
         cast(bicycle);
     }
-    public static void cast(Vehicle  veh){
+     static void cast(Vehicle  veh){
         veh.InterfaceClassMethodSound();
         //car cveh = (car ) veh; agar ye banaye, toh input veh mai sirf car ya uske bache ich dalo, plane ya bycle jo cast method me ke new obj "cveh" mai niya sakte, woh mat karo
 

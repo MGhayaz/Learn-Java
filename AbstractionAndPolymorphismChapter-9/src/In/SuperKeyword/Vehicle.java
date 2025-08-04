@@ -1,6 +1,6 @@
 package In.SuperKeyword;
 // full practice of super keyword in constructor, variable and methods
-public abstract class Vehicle {
+ abstract class Vehicle {
  public String  vehicleNumber = "Vehicle class";
     public String commonInBoth = "common from vehicle class";
     public Vehicle (String vehicleNumber ){
